@@ -50,7 +50,7 @@ public class ShowProductServlet extends HttpServlet {
 		// String format for product price (optional)
 		final DecimalFormat priceFormat = new DecimalFormat("0.00 €");
 		
-		// Get parameter recovery
+		// Recover id parameter through url 
 		final String productId = request.getParameter(PARAM_ID_GET);
 		
 		// Set MIME type and Charset
